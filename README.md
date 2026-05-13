@@ -18,15 +18,15 @@ El archivo central del curso. Simula la hoja de cálculo real de **Comercial Nor
 
 Contiene 7 pestañas:
 
-| Pestaña | Color | Descripción | Usada en |
-|---------|-------|-------------|----------|
-| **Ventas** | 🟢 Verde | 80 transacciones de ventas 2024 con fecha, producto, categoría, vendedor y región | Módulos 2, 3 y 4 |
-| **Gastos** | 🟠 Naranja | 48 registros de gastos con categoría, proveedor, monto y estado de pago | Módulo 3 |
-| **Empleados** | 🔵 Azul | 15 empleados con cargo, área, salario y años en empresa | Módulos 2 y 3 |
-| **Resumen** | 🟣 Morado | Dashboard con KPIs de ventas, gastos y empleados + 3 gráficas | Módulo 3 |
-| **Errores_Demo** | 🔴 Rojo | Tabla de productos con errores de fórmula plantados intencionalmente | Módulo 2 — Clase 2.2 |
-| **Formulas_Avanzadas** | 🟤 Verde oscuro | 7 fórmulas complejas listas para explicar con Claude | Módulo 2 — Clase 2.3 |
-| **Datos_Sucios** | 🟡 Ámbar | Base de proveedores con 6 tipos de problemas de calidad de datos | Módulo 3 — Clase 3.2 |
+| Pestaña                | Color          | Descripción                                                                       | Usada en             |
+| ---------------------- | -------------- | --------------------------------------------------------------------------------- | -------------------- |
+| **Ventas**             | 🟢 Verde        | 80 transacciones de ventas 2024 con fecha, producto, categoría, vendedor y región | Módulos 2, 3 y 4     |
+| **Gastos**             | 🟠 Naranja      | 48 registros de gastos con categoría, proveedor, monto y estado de pago           | Módulo 3             |
+| **Empleados**          | 🔵 Azul         | 15 empleados con cargo, área, salario y años en empresa                           | Módulos 2 y 3        |
+| **Resumen**            | 🟣 Morado       | Dashboard con KPIs de ventas, gastos y empleados + 3 gráficas                     | Módulo 3             |
+| **Errores_Demo**       | 🔴 Rojo         | Tabla de productos con errores de fórmula plantados intencionalmente              | Módulo 2 — Clase 2.2 |
+| **Formulas_Avanzadas** | 🟤 Verde oscuro | 7 fórmulas complejas listas para explicar con Claude                              | Módulo 2 — Clase 2.3 |
+| **Datos_Sucios**       | 🟡 Ámbar        | Base de proveedores con 6 tipos de problemas de calidad de datos                  | Módulo 3 — Clase 3.2 |
 
 ---
 
@@ -34,11 +34,11 @@ Contiene 7 pestañas:
 
 La pestaña **Errores_Demo** contiene errores plantados a propósito para practicar la detección con Claude en la clase 2.2. No son bugs del archivo:
 
-| Celda | Error | Causa |
-|-------|-------|-------|
-| `D4` | Muestra **0** sin avisar | La fórmula apunta a `C99`, una fila que no existe |
-| `D6` | `#¡VALOR!` | El precio está guardado como texto, no como número |
-| `C8` | `#¡DIV/0!` | La fórmula divide entre cero al calcular el promedio |
+| Celda | Error                                     | Causa                                                                                                              |
+| ----- | ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| `D4`  | Muestra **0** sin avisar                  | La fórmula apunta a `C99`, una fila que no existe                                                                  |
+| `D6`  | `#¡VALOR!`                                | El precio está guardado como texto, no como número                                                                 |
+| `C8`  | `#¡DIV/0!`                                | La fórmula divide entre cero al calcular el promedio                                                               |
 | `E12` | Resultado incorrecto sin mensaje de error | Error lógico: el bono se calcula sobre el total de todas las ventas en lugar de las ventas del vendedor específico |
 
 ---
@@ -47,12 +47,12 @@ La pestaña **Errores_Demo** contiene errores plantados a propósito para practi
 
 ### YouTube — gratuito
 
-| Módulo | Clases | Contenido |
-|--------|--------|-----------|
-| 1 — Primeros pasos | 1.1 · 1.2 · 1.3 | Qué es Claude for Excel, instalación y primer uso |
-| 2 — Fórmulas con IA | 2.1 · 2.2 | Crear fórmulas y detectar errores con Claude |
-| 3 — Análisis de datos | 3.1 · 3.2 · 3.3 | Leer, limpiar y visualizar datos con Claude |
-| 4 — Automatización | 4.1 | Skills: flujos guardados de un clic |
+| Módulo                | Clases          | Contenido                                         |
+| --------------------- | --------------- | ------------------------------------------------- |
+| 1 — Primeros pasos    | 1.1 · 1.2 · 1.3 | Qué es Claude for Excel, instalación y primer uso |
+| 2 — Fórmulas con IA   | 2.1 · 2.2       | Crear fórmulas y detectar errores con Claude      |
+| 3 — Análisis de datos | 3.1 · 3.2 · 3.3 | Leer, limpiar y visualizar datos con Claude       |
+| 4 — Automatización    | 4.1             | Skills: flujos guardados de un clic               |
 
 ### Udemy — avanzado
 Incluye los módulos anteriores más contenido exclusivo: modelos financieros, integración Excel + PowerPoint, Skills avanzadas y un proyecto final completo.
@@ -86,5 +86,5 @@ El archivo de práctica y los recursos de este repositorio son de uso exclusivo 
 
 ---
 
-> Curso disponible en YouTube: **[Claude para Excel](#)**  
+> Curso disponible en YouTube: **[Claude para Excel](https://youtu.be/sRVwP15xxlE?si=qo_VmQsM1Sby4yaK)**  
 > Versión avanzada en Udemy: **[Claude para Excel — Avanzado](#)**
