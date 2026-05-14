@@ -12,7 +12,9 @@ Este repositorio contiene los recursos de práctica del curso, incluyendo el arc
 
 ## Archivo de práctica
 
-### `Comercial_Norte_SA_CursoClaudeExcel.xlsx`
+### [Comercial_Norte_SA_CursoClaudeExcel.xlsx](https://github.com/Mteheran/curso-claude-excel/blob/main/Comercial_Norte_SA_CursoClaudeExcel.xlsx)
+
+[Descargar archivo (1 clic)](https://raw.githubusercontent.com/Mteheran/curso-claude-excel/main/Comercial_Norte_SA_CursoClaudeExcel.xlsx)
 
 El archivo central del curso. Simula la hoja de cálculo real de **Comercial Norte S.A.**, una empresa ficticia con datos de ventas, gastos y empleados del año 2024. Todas las demos del curso se realizan sobre este archivo.
 
